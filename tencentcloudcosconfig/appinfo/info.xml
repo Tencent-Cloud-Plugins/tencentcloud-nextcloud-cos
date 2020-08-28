@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>tencentcloudcosconfig</id>
+    <name>Tencentcloud COS Config</name>
+    <summary>configure tencentcloud object store</summary>
+    <description><![CDATA[configure tencentcloud object store]]></description>
+    <version>1.0.0</version>
+    <licence>agpl</licence>
+    <author>tencentcloud</author>
+    <namespace>TencentcloudCOSConfig</namespace>
+    <category>tools</category>
+    <bugs>https://support.qq.com/products/164613</bugs>
+    <dependencies>
+        <nextcloud min-version="19" max-version="19"/>
+    </dependencies>
+    <settings>
+        <admin>OCA\TencentcloudCOSConfig\Setting\AdminSetting</admin>
+        <admin-section>OCA\TencentcloudCOSConfig\Setting\AdminSection</admin-section>
+    </settings>
+</info>

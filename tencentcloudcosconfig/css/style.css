@@ -1,0 +1,13 @@
+.cos-input{
+	width: 22rem;
+}
+.toggle-password{
+	margin-left: -2rem;
+}
+#description {
+	margin-left: 1em;
+}
+
+tr:hover td{
+	background-color:white;
+}
